@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Evelyn Chen - DropCap - Period 2</title>
+    <script>
+      window.onbeforeunload = function () {
+        window.scrollTo(0, 0);
+      };
+    </script>
+    <style type="text/css">
+      @keyframes transitionIn {
+        from {
+          transform: translateY(-3%);
+          opacity: 0;
+        }
+        to {
+          transform: translateY(0);
+          opacity: 1;
+        }
+      }
+      body {
+        margin: 100px;
+        background-image: url("asanoha.png");
+      }
+      p:first-letter {
+        float: left;
+        font-size: 3em;
+        margin: 0.15em 20px 0 5px;
+        padding: 5px 20px;
+        background: #771E30;
+        color: white;
+        font-weight: bold;
+
+      }
+      p {
+        animation: transitionIn 1s;
+        font-size: 2em;
+        color: #3B4446;
+        background: #FFFFFF;
+        padding: 30px;
+        max-width: 800px;
+        margin: auto;
+        box-shadow: 0 0 0 3px #771E30;
+        border-radius: 1em;
+        text-align: justify;
+      }
+    </style>
+  </head>
+  <body>
+    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+  </body>
+</html>
