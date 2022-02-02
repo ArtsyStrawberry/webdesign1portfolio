@@ -1,0 +1,189 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Evelyn Chen - Career Exploration - Period 2</title>
+    <style type="text/css">
+    body {
+      margin: 0;
+      background: #575E85;
+    }
+    @media (min-width: 1020px) {
+      body {
+        margin: 10px auto;
+      }
+    }
+    #container {
+      max-width: 1000px;
+      width: 100%;
+      margin: auto;
+      background: #FFF;
+      box-shadow: 0px 0px 12px rgba(0,0,0,0.2);
+    }
+    #banner {
+      max-width: 1000px;
+      width: 100%;
+      padding-bottom: 30%;
+      background: #32394E;
+    }
+    .imgbanner {
+      position: absolute;
+      max-width: 1000px;
+      width: 100%;
+    }
+    #nav {
+      max-width: 1000px;
+      width: 100%;
+      text-align: center;
+      margin: 0 auto;
+    }
+    .sticky {
+      position: fixed;
+      top: 0;
+      width: 100%;
+    }
+    .placeholder {
+      padding-top: 10px;
+    }
+    @media (min-width: 775px) {
+      .sticky + .placeholder {
+        padding-top: 64px;
+      }
+    }
+    @media (max-width: 764px) {
+      .sticky + .placeholder {
+        padding-top: 118px;
+      }
+    }
+    #nav ul {
+      list-style: none;
+      margin: 0;
+      padding: 0;
+      overflow: hidden;
+      background: #C39AAA;
+    }
+    #nav li {
+      display: inline;
+      padding: 0 10px;
+    }
+    #nav a {
+      display: inline-block;
+      color: #F7F2F6;
+      text-align: center;
+      padding: 14px 22px;
+      text-decoration: none;
+      font-size: 1.4em;
+    }
+    #nav a:hover {
+      background: #111;
+    }
+    #pic1 {
+      float: left;
+      border: 6px solid #624B5B;
+      border-radius: 100%;
+      margin: 30px 60px 30px 30px;
+    }
+    p {
+      color: #111111;
+      font-size: 1.8em;
+      font-family: georgia;
+      text-align: left;
+      margin: 30px;
+    }
+    .dropcap {
+      float: left;
+      padding: .2em .8em .2em 0;
+    }
+    hr {
+      width: 100%;
+      height: 20px;
+      background: #D9BFC2;
+      border: 0;
+    }
+    #main {
+      width: 100%;
+    }
+    #main1, #main2, #main3, #main4 {
+      width: 49%;
+      float: left;
+      color: #00282c;
+      padding: 0;
+    }
+    #main p {
+      color: #52536A;
+      font-size: 1.3em;
+      text-align: justify;
+    }
+    #main p:first-letter {
+      float: left;
+      font-size: 2.5em;
+      line-height: .5;
+      margin: .2em .15em 0 0;
+    }
+    #main h3 {
+      font-size: 1.8em;
+      color: #485777;
+      text-align: center;
+    }
+    #footer {
+      width: 100%;
+      height: 30px;
+      background: #1E1D23;
+      clear: both;
+    }
+    </style>
+  </head>
+  <body>
+    <div id="container">
+      <div id="banner">
+        <img src="banner.png" class="imgbanner">
+      </div>
+      <div class="header" id="nav">
+        <ul>
+          <li><a href="#">Home</a></li>
+          <li><a href="12.11.20 Career Exploration 2.html">Software</a></li>
+          <li><a href="#">Contact</a></li>
+          <li><a href="#">Links</a></li>
+          <li><a href="#">About Us</a></li>
+          <li><a href="#">FAQ</a></li>
+        </ul>
+      </div>
+      <div class="placeholder">
+        <img src="golden-gate-bridge.jpg" id="pic1">
+        <p><img src="c.png" class="dropcap">ivil engineering is a professional engineering discipline that deals with the design, construction, and maintenance of the physical and naturally built environment, including public works such as roads, bridges, canals, dams, airports, sewerage systems, pipelines, structural components of buildings, and railways.</p>
+        <hr>
+      </div>
+      <div id="main">
+        <div id="main1">
+          <h3>History</h3>
+          <p>Engineering has been an aspect of life since the beginnings of human existence. The earliest practice of civil engineering may have commenced between 4000 and 2000 BC in ancient Egypt, the Indus Valley Civilization, and Mesopotamia (ancient Iraq) when humans started to abandon a nomadic existence, creating a need for the construction of shelter. During this time, transportation became increasingly important leading to the development of the wheel and sailing.</p>
+        </div>
+        <div id="main2">
+          <h3>Education</h3>
+          <p>Civil engineers typically possess an academic degree in civil engineering. The length of study is three to five years, and the completed degree is designated as a bachelor of technology, or a bachelor of engineering. The curriculum generally includes classes in physics, mathematics, project management, design and specific topics in civil engineering. After taking basic courses in most sub-disciplines of civil engineering, they move on to specialize in one or more sub-disciplines at advanced levels.</p>
+        </div>
+        <div id="main3">
+          <h3>Certification</h3>
+          <p>In most countries, a bachelor's degree in engineering represents the first step towards professional certification. After completing a certified degree program, the engineer must satisfy a range of requirements including work experience and exam requirements before being certified. Once certified, the engineer is designated as a professional engineer (in the United States). There are international agreements between relevant professional bodies to allow engineers to practice across national borders.</p>
+        </div>
+        <div id="main4">
+          <h3>Sub-Disciplines</h3>
+          <p>There are a number of sub-disciplines within the broad field of civil engineering. General civil engineers work closely with surveyors and specialized civil engineers to design grading, drainage, pavement, water supply, sewer service, dams, electric and communications supply. Civil engineers apply the principles of geotechnical, structural, environmental, transportation, and construction engineering to residential, commercial, industrial and public works projects of all sizes and levels of construction.</p>
+        </div>
+      </div>
+      <div id="footer"></div>
+    </div>
+    <script>
+    window.onscroll = function() {myFunction()};
+    var header = document.getElementById("nav");
+    var header2 = document.getElementById("banner");
+    function myFunction() {
+    var sticky = header2.clientHeight;
+      if (window.pageYOffset > sticky) {
+        header.classList.add("sticky");
+      } else {
+        header.classList.remove("sticky");
+      }
+    }
+    </script>
+  </body>
+</html>
