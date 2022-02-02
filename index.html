@@ -1,0 +1,193 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Evelyn Chen - Portfolio Home Page - Period 2</title>
+    <style type="text/css">
+    @font-face {
+      font-family: BaksoSapi;
+      src: url(BaksoSapi.otf);
+    }
+    @font-face {
+      font-family: vogue;
+      src: url(vogue.ttf);
+    }
+    @font-face {
+      font-family: Jojoba;
+      src: url(Jojoba.otf);
+    }
+    @font-face {
+      font-family: mermaid;
+      src: url(mermaid.ttf);
+    }
+    @keyframes shrink {
+      from {
+        letter-spacing: 0.1px;
+        font-size: 100%;
+      }
+      to {
+        letter-spacing: 0;
+        font-size: 98%;
+      }
+    }
+    @keyframes grow {
+      from {
+        letter-spacing: 0;
+        font-size: 98%;
+      }
+      to {
+        letter-spacing: 0.1px;
+        font-size: 100%;
+      }
+    }
+    @keyframes transitionIn {
+      from {
+        transform: translateY(-10%);
+        opacity: 0;
+      }
+      to {
+        transform: translateY(0);
+        opacity: 1;
+      }
+    }
+    @keyframes transitionIn2 {
+      from {
+        transform: translateY(2%);
+        opacity: 0;
+      }
+      to {
+        transform: translateY(0);
+        opacity: 1;
+      }
+    }
+    body {
+      background: #3E3C3D;
+      background-image: url("pink dust.png");
+      color: white;
+      margin: 0 2% 0 2%;
+      background-attachment: fixed;
+    }
+    h1 {
+      animation: transitionIn 1s;
+      font-family: vogue;
+      font-size: 70px;
+      margin: 40px 0 0 0;
+      text-align: center;
+      color: #e99b9b;
+      text-shadow: 2px 2px #FFF;
+    }
+    h2 {
+      animation: transitionIn 1s;
+      font-family: BaksoSapi;
+      font-size: 40px;
+      margin-top: 0;
+      margin-bottom: 20px;
+      text-align: center;
+    }
+    h3 {
+      font-family: BaksoSapi;
+      font-size: 30px;
+      margin-bottom: 15px;
+    }
+    #container {
+      animation: transitionIn2 1s;
+      margin: 0 auto 20px auto;
+      max-width: 1050px;
+      width: 100%;
+      overflow: hidden;
+    }
+    ul {
+      width: 24%;
+      background: rgba(125, 125, 125, 0.4);
+      float: left;
+      font-family: mermaid;
+      text-transform: lowercase;
+      font-weight: lighter;
+      list-style: none;
+      padding: 0;
+      border: none;
+      font-size: 150%;
+      margin: 0;
+      overflow-wrap: break-word;
+      border-radius: 1em;
+    }
+    li {
+      padding: 0;
+      margin: 0;
+    }
+    a {
+      animation: grow 0.2s;
+      min-height: 32px;
+      display: block;
+      padding: 15px 20px 7px 20px;
+      text-decoration: none;
+      color: #e99b9b;
+      letter-spacing: 0.1px;
+      border-radius: 1em;
+    }
+    a:hover {
+      animation: shrink 0.2s;
+      color: #FFF;
+      letter-spacing: 0;
+      font-size: 98%;
+      background-color: #e99b9b;
+      overflow: hidden;
+    }
+    #box {
+      width: 68%;
+      background-color: rgba(125, 125, 125, 0.4);
+      float: left;
+      margin-left: 2%;
+      margin-right: 0;
+      padding: 3%;
+      border-radius: 1em;
+    }
+    img {
+      float: left;
+      margin: 7px 25px 25px 7px;
+      padding: 10px;
+      max-width: 200px;
+      width: 39%;
+      background-color: #FFF;
+      border-radius: 0.7em;
+    }
+    p {
+      text-align: justify;
+      color: #FFF;
+      font-size: 1.3em;
+      font-family: Jojoba;
+      margin: 0.5em 0;
+    }
+    hr {
+      margin: 30px auto;
+      width: 5%;
+      border-style: dashed;
+    }
+    </style>
+  </head>
+  <body>
+    <h1>Evelyn Chen - Period 2</h1>
+    <h2>My Web Design 1 Portfolio</h2>
+    <div id="container">
+      <h3>My Class Projects</h3>
+      <ul>
+        <li><a href="11.17.20 Basic Page/11.17.20 Basic Page.html">Basic Page</a></li>
+        <li><a href="11.17.20 Wrapped Images/11.17.20 Wrapped Images.html">Wrapped Images</a></li>
+        <li><a href="11.23.20 Macro Images and Full Paragraphs/11.23.20 Macro Images and Full Paragraphs.html">Macro Images</a></li>
+        <li><a href="11.28.20 About Me/11.28.20 About Me.html">About Me</a></li>
+        <li><a href="12.3.20 Drop Cap/12.3.20 Drop Cap.html">Drop Cap</a></li>
+        <li><a href="12.3.20 Navigation.html">Navigation</a></li>
+        <li><a href="12.8.20 Box Model.html">Box Model</a></li>
+        <li><a href="12.9.20 Centered Navigation/12.9.20 Centered Navigation.html">Centered Navigation</a></li>
+        <li><a href="12.9.20 Coco Divs/12.9.20 Coco Divs.html">Coco Divs</a></li>
+        <li><a href="12.11.20 Career Exploration/12.11.20 Career Exploration.html">Career Exploration</a></li>
+        <li><a href="12.21.20 Topic Site/home.html">Topic Site</a></li>
+      </ul>
+      <div id="box">
+        <img src="11.28.20 About Me/me.png">
+        <p>Hello, I'm Evelyn! I'm a dehydrated high schooler who enjoys drawing, reading sci-fi and fantasy novels, playing soccer, coding, and going on long walks in my free time.<br><br>I spend time listening to my go-to thirty-two song playlist on repeat, which consists of Billie Eilish, Ashe, and an assortment of pop and alternative music.<br><br>I'm almost always doing something unimportant on my phone and ignoring the homework I probably should be doing. You can typically find me lounging on my bed in shorts or sweats.</p>
+        <hr>
+        <p>I'm the youngest in a family of four. I live with my older sister, parents, and two fish. My sister and I grew up in Oregon, and I’ve lived here my whole life.<br><br>Aside from my family, my friends have had the greatest impact on my life. They are all the bane of my existence.</p>
+      </div>
+    </div>
+  </body>
+</html>

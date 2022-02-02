@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Evelyn Chen - Navigation - Period 2</title>
+    <style type="text/css">
+      @keyframes transitionIn {
+        from {
+          background: #F8B526;
+        }
+        to {
+          background: #FACE70;
+        }
+      }
+      @keyframes transitionOut {
+        from {
+          background: #FACE70;
+        }
+        to {
+          background: #F8B526;
+        }
+      }
+      @keyframes transitionIn2 {
+        from {
+          color: white;
+          background: #222222;
+        }
+        to {
+          color: #Ae5468;
+          background: #303030;
+        }
+      }
+      @keyframes transitionOut2 {
+        from {
+          color: #Ae5468;
+          background: #303030;
+        }
+        to {
+          color: white;
+          background: #222222;
+        }
+      }
+      .horizontalul {
+        list-style: none;
+        padding: 0;
+        margin: 20px;
+      }
+      .horizontala {
+        animation: transitionOut 0.5s;
+        display: inline;
+        text-decoration: none;
+        padding: 12px 17px;
+        background: #F8B526;
+        float: left;
+        width: 100px;
+        text-align: center;
+        color: #F8B526;
+        text-shadow: -1px -1px 0 #FFF, 1px -1px 0 #FFF, -1px 1px 0 #FFF, 1px 1px 0 #FFF;
+        font-size: 18pt;
+        font-family: calibri;
+        border: 2px solid white;
+        letter-spacing: 5px;
+      }
+      .horizontala:hover {
+        animation: transitionIn 0.5s;
+        background: #FACE70;
+        color: white;
+        text-shadow: -1px -1px 0 #FFF, 1px -1px 0 #FFF, -1px 1px 0 #FFF, 1px 1px 0 #FFF;
+      }
+      .vertticalul {
+        list-style: none;
+        padding: 0;
+        margin: 100px 20px;
+      }
+      .verticala {
+        animation: transitionOut2 0.5s;
+        display: block;
+        text-decoration: none;
+        background: #222222;
+        text-align: center;
+        color: white;
+        font-size: 18pt;
+        padding: 15px 20px;
+        width: 100px;
+        font-weight: lighter;
+        font-family: monospace;
+      }
+      .verticala:hover {
+        animation: transitionIn2 0.5s;
+        color: #Ae5468;
+        background: #303030;
+      }
+    </style>
+  </head>
+  <body>
+    <ul class="horizontalul">
+      <li class="horizontalli"><a href="#" class="horizontala">Link 1</a></li>
+      <li class="horizontalli"><a href="#" class="horizontala">Link 2</a></li>
+      <li class="horizontalli"><a href="#" class="horizontala">Link 3</a></li>
+      <li class="horizontalli"><a href="#" class="horizontala">Link 4</a></li>
+      <li class="horizontalli"><a href="#" class="horizontala">Link 5</a></li>
+    </ul>
+    <br><br><br>
+    <ul class="vertticalul">
+      <li class="verticalli"><a href="#" class="verticala">Link 1</a></li>
+      <li class="verticalli"><a href="#" class="verticala">Link 2</a></li>
+      <li class="verticalli"><a href="#" class="verticala">Link 3</a></li>
+      <li class="verticalli"><a href="#" class="verticala">Link 4</a></li>
+      <li class="verticalli"><a href="#" class="verticala">Link 5</a></li>
+    </ul>
+  </body>
+</html>
