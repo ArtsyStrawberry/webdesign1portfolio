@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Evelyn Chen - Coco Divs - Period 2</title>
+    <script>
+      window.onbeforeunload = function () {
+        window.scrollTo(0, 0);
+      };
+    </script>
+    <style type="text/css">
+      @keyframes transitionIn {
+        from {
+          transform: translateY(-3%);
+          opacity: 0;
+        }
+        to {
+          transform: translateY(0);
+          opacity: 1;
+        }
+      }
+      body {
+        background-color:#d1cfcf;
+        background-image:url("red.jpg");
+        background-attachment: fixed;
+        width: 50%;
+        margin: 50px auto;
+        font-family: garamond;
+      }
+      .containers {
+        animation: transitionIn 1s;
+        border-radius: 1em;
+        overflow: hidden;
+        margin: 20px auto;
+        box-shadow: 0px 0px 12px rgba(0,0,0,0.2);
+      }
+      #one {
+        background: #771E30;
+        padding: 5px;
+      }
+      .two {
+        background: white;
+        padding: 30px;
+      }
+      #border {
+        border: 2px dashed white;
+        border-radius: 0.75em;
+        padding: 25px;
+      }
+      h1 {
+        color: white;
+        font-size: 3em;
+        margin: 0 0 10px 0;
+        text-align: center;
+        text-transform: uppercase;
+      }
+      h3 {
+        color: white;
+        font-size: 2em;
+        text-align: center;
+        margin: 0;
+      }
+      img {
+        border-radius: 100%;
+        border: 2px dashed #771E30;
+        padding: 5px;
+        margin-bottom: 25px;
+      }
+      .left {
+        float: left;
+        margin-right: 30px;
+      }
+      .right {
+        float: right;
+        margin-left: 30px;
+      }
+      p {
+        font-size: 1.5em;
+        color: #222;
+        text-indent: 60px;
+        margin: auto;
+      }
+    </style>
+  </head>
+  <body>
+    <div id="one" class="containers">
+      <div id="border">
+        <h1>Evelyn Chen</h1>
+        <h3>Images and Paragraphs in &#60;div&#62; Tags</h3>
+      </div>
+    </div>
+    <div class="two containers">
+      <img src="coco1.jpg" class="left">
+      <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. In ac risus non eros dictum vulputate at ut risus. Proin imperdiet, lectus in sollicitudin ornare, urna risus ullamcorper turpis, at bibendum lectus mauris ut risus. Integer semper turpis et velit consequat bibendum. Sed aliquet ipsum vitae ipsum laoreet, sed rutrum magna lobortis. Proin vel sagittis leo, vel vehicula dui. Proin imperdiet ipsum eget velit condimentum porttitor. Duis porttitor leo justo. Fusce nec elit dictum, dictum ex sit amet, mollis odio. Aenean consequat arcu eget odio aliquet gravida. Nullam non tortor eu est hendrerit vestibulum..</p>
+    </div>
+    <div class="two containers">
+      <img src="coco2.png" class="right">
+      <p>Donec ipsum tortor, convallis in metus vitae, mattis ultrices lectus. Aliquam non pretium nunc. Mauris id viverra massa. Vivamus sagittis ex ac massa vulputate condimentum non eget dolor. Etiam vestibulum nec arcu et pretium. Nam dignissim mattis eleifend. In a egestas risus. Phasellus id lectus in arcu iaculis ultrices eu sit amet est. Fusce id rutrum tellus, nec porta dui. Nunc purus mi, faucibus id tincidunt eu, finibus non velit. Praesent odio massa, pulvinar nec ultricies quis, facilisis ac eros. Fusce sit amet vestibulum libero, ut dignissim augue. Proin dignissim a nibh et finibus. Cras lobortis ut nulla sit amet auctor. Mauris in velit sit amet libero posuere blandit.</p>
+    </div>
+    <div class="two containers">
+      <img src="coco3.png" class="left">
+      <p>Etiam non est eu lorem sodales maximus id sit amet diam. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Aliquam ac ex faucibus, efficitur nunc interdum, vehicula ante. Pellentesque vitae vehicula mauris. Phasellus semper aliquam accumsan. Etiam non ante et nulla auctor tempus vel id erat. Vestibulum in urna purus. In elementum lorem at risus lacinia porta. Sed hendrerit turpis sit amet scelerisque ornare. Nunc pulvinar tempus velit, nec pretium lectus imperdiet varius. Aliquam in pellentesque lacus.</p>
+    </div>
+    <div class="two containers">
+      <img src="coco4.png" class="right">
+      <p>Phasellus faucibus condimentum quam sit amet fringilla. Proin justo mauris, ultrices sit amet arcu at, interdum sodales erat. Aliquam sit amet lacinia lacus. Duis in semper turpis. Nam ut sagittis lorem, eget ultricies est. Nulla a sem sit amet nunc dignissim tincidunt sit amet sit amet magna. Morbi eget bibendum libero. Morbi varius, nulla quis gravida dictum, sapien nisl imperdiet magna, sed aliquet nisi ligula in mauris. Ut eu quam elit. Nam sollicitudin tempus risus vel ullamcorper. Nullam tincidunt massa libero, et condimentum ipsum lacinia sed. Curabitur consectetur a purus et auctor. Nunc at arcu iaculis, mattis nunc id, vulputate erat.</p>
+    </div>
+  </body>
+</html>
