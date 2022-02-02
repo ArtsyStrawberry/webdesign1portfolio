@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Evelyn Chen - Centered Navigation - Period 2</title>
+    <style type="text/css">
+      body {
+        padding: 0;
+        margin: 0 20px;
+        background: url("swirl.jpg");
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-attachment: fixed;
+      }
+      div {
+        max-width: 1000px;
+        margin: 0 auto;
+        background: white;
+        padding: 20px 30px;
+        box-shadow: 0px 0px 12px rgba(0,0,0,0.2);
+      }
+      h1 {
+        font-family: calibri;
+        font-size: 4em;
+        color: #b37e79;
+        text-align: center;
+        margin: 20px;
+        text-transform: uppercase;
+        font-weight: 50;
+      }
+      #nav {
+        border: 1px dashed #E7E5E1;
+        border-width: 4px 0;
+        list-style: none;
+        margin: 0;
+        padding: 0;
+        text-align: center;
+        font-family: times;
+      }
+      #nav li {
+        display: inline;
+      }
+      #nav a {
+        display: inline-block;
+        padding: 5px 20px;
+        font-size: 2em;
+        color: #F3969A;
+        text-decoration: none;
+      }
+      #nav a:hover {
+        color: #B6A794;
+      }
+      .pic1 {
+        padding: 10px;
+        background: #E7E5E1;
+        border-radius: 5px;
+      }
+      @media (max-width: 580px) {
+        .pic1 {
+          width: 90%;
+          margin: 40px auto 20px auto;
+        }
+      }
+
+      @media (min-width: 580px) {
+        .pic1 {
+          margin: 40px 30px 20px 20px;
+          float: left;
+          width: 400px;
+        }
+      }
+      .pic2 {
+        max-width: 300px;
+        float: right;
+        padding: 10px;
+        margin: 20px 20px 20px 30px;
+        background: #E7E5E1;
+        border-radius: 5px;
+      }
+      h3 {
+        font-size: 2.25em;
+        font-family: calibri;
+        color: #b37e79;
+        margin-bottom: -10px;
+      }
+      p:first-letter {
+        float: left;
+        font-size: 2.25em;
+        line-height: 0.5;
+        margin: 0.25em 0.153em .1em 0;
+        color: #F3969A;
+      }
+      p {
+        font-size: 1.5em;
+        font-family: times;
+        color: #222222;
+      }
+      hr {
+        background: #E7E5E1;
+        border: none;
+        height: 2px;
+        width: 75%;
+      }
+    </style>
+  </head>
+  <body>
+    <div>
+      <h1>Centered Nav Example</h1>
+      <ul id="nav">
+        <li><a href="#">Home</a></li>
+        <li><a href="#">About Us</a></li>
+        <li><a href="#">Work</a></li>
+        <li><a href="#">Contact</a></li>
+        <li><a href="#">Links</a></li>
+        <li><a href="#">FAQ</a></li>
+      </ul>
+      <img src="ocean.jpg" class="pic1">
+      <h3>Sub-Heading Here</h3>
+      <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec feugiat nunc a libero fermentum elementum. Ut pulvinar ante non neque lacinia efficitur nec non mi. Duis gravida libero vel nunc pharetra accumsan. Cras posuere ultricies leo, vel rhoncus nibh bibendum in. Sed blandit nulla ac vestibulum molestie. Sed quam diam, lacinia et aliquet quis, dictum ultrices leo. Ut aliquam dui ex, vitae consectetur sem auctor a. Proin cursus ante nec lectus commodo tristique. Aenean vestibulum velit massa, vel rhoncus lorem scelerisque feugiat. Quisque a ipsum in dolor consequat laoreet. Sed venenatis purus nisl. Vivamus sollicitudin mollis varius. Nulla sed condimentum ipsum. Nam finibus, enim eget laoreet congue, quam est condimentum velit, eu finibus elit odio vel diam.</p>
+      <p>Morbi mollis risus in pretium cursus. Phasellus finibus feugiat arcu, quis fringilla massa maximus vitae. In in gravida ipsum, a imperdiet lectus. Pellentesque sed purus nulla. Praesent ante diam, convallis ac massa et, ornare tempor ante. Fusce ut tellus vel augue consequat iaculis. Nam pretium arcu nisl, a tincidunt elit malesuada at.</p>
+      <hr>
+      <p>Vestibulum facilisis, elit sed euismod blandit, felis enim rhoncus nunc, quis maximus est felis quis lorem. Donec id justo dapibus, cursus orci vitae, dictum ligula. Suspendisse nibh dui, mattis eget nunc nec, commodo scelerisque ante. Suspendisse faucibus feugiat hendrerit. Vestibulum congue, velit facilisis blandit tristique, elit neque gravida lorem, ut rutrum justo felis a ipsum. Etiam posuere, orci sit amet dapibus pretium, justo lacus consectetur sem, in luctus sem sem eu neque. Vestibulum vel orci vehicula, finibus libero sit amet, convallis nisl. Aenean ut leo in nisi posuere rhoncus eget in odio. Etiam feugiat dapibus odio nec vehicula. Maecenas nisl turpis, vehicula quis volutpat eu, maximus at dui. Suspendisse a feugiat magna. In consectetur pulvinar hendrerit. Etiam ut nibh scelerisque, dictum urna at, malesuada elit. Maecenas ultrices tortor pharetra lacus faucibus varius. Sed in massa nec quam varius lobortis.</p>
+      <img src="airplane.jpg" class="pic2">
+      <p>Proin iaculis ex quis elit pellentesque, a condimentum urna tincidunt. Sed leo libero, fermentum vitae semper vitae, molestie et nulla. Sed sed tortor in est tincidunt dapibus. Sed consequat turpis vitae felis pretium, eget tempus purus dictum. In nec elementum turpis, ut elementum urna. Nullam vel ante augue. Duis ligula mauris, interdum vel convallis eu, ornare quis massa. Nulla ut erat efficitur, malesuada massa at, bibendum lectus. Vestibulum vulputate velit ut turpis fermentum imperdiet. Integer ac fermentum lorem, nec sagittis velit. Phasellus gravida, ipsum a congue scelerisque, urna nisl bibendum lectus, et pulvinar odio metus a sem. Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Aenean egestas tristique facilisis. Vivamus nec ante mi. Quisque hendrerit turpis ut elementum bibendum.</p>
+      <hr>
+      <p>Mauris ornare pharetra eleifend. Nulla commodo efficitur vehicula. Vestibulum dictum erat diam, at imperdiet enim mollis ac. Integer elementum metus mi, nec elementum purus commodo eget. Nulla sodales semper imperdiet. Cras tincidunt convallis dictum. Pellentesque nec efficitur nulla. Sed euismod, sapien in efficitur vulputate, nibh magna gravida nisl, ut tempor tellus arcu eu ipsum. Etiam dolor nisi, feugiat vel massa at, consectetur pulvinar metus. Ut nibh erat, malesuada at tincidunt iaculis, tempor a nibh. Nullam accumsan justo auctor sem laoreet, id convallis mauris efficitur. Nam rhoncus, lacus ut placerat rhoncus, nisi erat dapibus elit, vel elementum nisi ligula quis libero. Sed rutrum volutpat mi ac hendrerit.</p>
+    </div>
+  </body>
+</html>
