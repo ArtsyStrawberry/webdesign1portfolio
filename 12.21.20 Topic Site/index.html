@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <link rel="icon" href="breadicon.png">
+    <title>Bread - Index (Evelyn Chen, P. 2)</title>
+    <style type="text/css">
+    body {
+      text-align: center;
+      max-width: 1200px;
+      padding: 0;
+      margin: 0 auto;
+      background: #363636;
+      font-family: serif;
+    }
+    /* navigation start */
+    #header {
+      background-color: white;
+      padding: 10px;
+      width: 50%;
+      position: absolute;
+      top: 50%;
+      left: 50%;
+      transform: translate(-50%, -50%);
+      mix-blend-mode: screen;
+    }
+    @media (min-width: 1201px) {
+      #header {
+        font-size: 7.5em;
+      }
+      #imgcontainer {
+        height: 300px;
+      }
+    }
+    @media (max-width: 1200px) {
+      #header {
+        font-size: 10vw;
+      }
+      #imgcontainer {
+        height: 25vw;
+      }
+    }
+    #imgcontainer {
+      background-image: url("breadbanner.jpg");
+      background-size: cover;
+      position: relative;
+    }
+    #nav {
+      list-style: none;
+      margin: 0;
+      padding: 0;
+      background: #222;
+    }
+    #nav li {
+      display: inline;
+    }
+    #nav a {
+      transition: .2s ease;
+      display: inline-block;
+      color: #E4B374;
+      text-decoration: none;
+      font-weight: bold;
+    }
+    @media (min-width: 616px) {
+      #nav a {
+        font-size: 1.5em;
+        padding: 15px 40px;
+      }
+    }
+    @media (max-width: 615px) {
+      #nav a {
+        font-size: 4vw;
+        padding: 15px 5.9vw;
+      }
+    }
+    #nav a:hover {
+      transition: .2s ease;
+      color: #FFEAE5;
+      background: #865544;
+    }
+    @media (min-width: 1201px) {
+      .sticky {
+        position: fixed;
+        top: 0;
+        width: 1200px;
+      }
+    }
+    @media (max-width: 1200px) {
+      .sticky {
+        position: fixed;
+        top: 0;
+        width: 100%;
+      }
+    }
+    /* navigation end */
+    </style>
+  </head>
+  <body>
+    <!-- navigation start -->
+    <div id="imgcontainer">
+      <div id="header">BREAD</div>
+    </div>
+    <ul id="nav">
+      <li><a href="home.html">Home</a></li>
+      <li><a href="about.html">About</a></li>
+      <li><a href="types.html">Types</a></li>
+      <li><a href="haiku.html">Haiku</a></li>
+    </ul>
+    <!-- navigation end -->
+    <script>
+    window.onscroll = function() {myFunction()};
+    var header = document.getElementById("nav");
+    var header2 = document.getElementById("imgcontainer");
+    function myFunction() {
+    var sticky = header2.clientHeight;
+      if (window.pageYOffset > sticky) {
+        header.classList.add("sticky");
+      } else {
+        header.classList.remove("sticky");
+      }
+    }
+    </script>
+  </body>
+</html>

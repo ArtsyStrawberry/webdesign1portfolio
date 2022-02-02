@@ -1,0 +1,220 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <link rel="icon" href="breadicon.png">
+    <title>Bread - Index (Evelyn Chen, P. 2)</title>
+    <style type="text/css">
+    body {
+      text-align: center;
+      max-width: 1200px;
+      padding: 0;
+      margin: 0 auto;
+      background: #363636;
+      font-family: serif;
+    }
+    /* navigation start */
+    #header {
+      background-color: white;
+      padding: 10px;
+      width: 50%;
+      position: absolute;
+      top: 50%;
+      left: 50%;
+      transform: translate(-50%, -50%);
+      mix-blend-mode: screen;
+    }
+    @media (min-width: 1201px) {
+      #header {
+        font-size: 7.5em;
+      }
+      #imgcontainer {
+        height: 300px;
+      }
+    }
+    @media (max-width: 1200px) {
+      #header {
+        font-size: 10vw;
+      }
+      #imgcontainer {
+        height: 25vw;
+      }
+    }
+    #imgcontainer {
+      background-image: url("breadbanner.jpg");
+      background-size: cover;
+      position: relative;
+    }
+    #nav {
+      list-style: none;
+      margin: 0;
+      padding: 0;
+      background: #222;
+    }
+    #nav li {
+      display: inline;
+    }
+    #nav a {
+      transition: .2s ease;
+      display: inline-block;
+      color: #E4B374;
+      text-decoration: none;
+      font-weight: bold;
+    }
+    @media (min-width: 616px) {
+      #nav a {
+        font-size: 1.5em;
+        padding: 15px 40px;
+      }
+    }
+    @media (max-width: 615px) {
+      #nav a {
+        font-size: 4vw;
+        padding: 15px 5.9vw;
+      }
+    }
+    #nav a:hover {
+      transition: .2s ease;
+      color: #FFEAE5;
+      background: #865544;
+    }
+    @media (min-width: 1201px) {
+      .sticky {
+        position: fixed;
+        top: 0;
+        width: 1200px;
+      }
+    }
+    @media (max-width: 1200px) {
+      .sticky {
+        position: fixed;
+        top: 0;
+        width: 100%;
+      }
+    }
+    /* navigation end */
+    #container {
+      margin: 0 auto;
+      overflow: hidden;
+      background: white;
+      padding: 40px 50px;
+    }
+    .sticky + #container {
+      padding-top: 99px;
+    }
+    #main {
+      width: 70%;
+      float: left;
+      padding: 0 3% 0 0;
+    }
+    #main .pic1 {
+      float: right;
+      margin: 4% 0 2% 4%;
+      max-width: 320px;
+      width: 80%;
+    }
+    #main h2 {
+      font-size: 2em;
+      color: #BB7654;
+    }
+    #main p {
+      font-size: 1.3em;
+      line-height: 1.25em;
+      text-align: justify;
+      color: #3D2923;
+    }
+    #main p:first-letter {
+      float: left;
+      font-size: 55px;
+      line-height: 50px;
+      margin-right: 8px;
+      border-radius: 5px;
+    }
+    #right_side {
+      width: 22%;
+      float: right;
+      background: #F9F8F7;
+      border-radius: 5px;
+      overflow: hidden;
+    }
+    #right_side h3 {
+      font-size: 1.5em;
+      text-align: center;
+      margin-bottom: 10px;
+      color: #3D2923;
+    }
+    #right_side ul {
+      margin: 0;
+      padding: 0;
+      width: 100%;
+      list-style: none;
+    }
+    #right_side a {
+      text-decoration: none;
+      color: #BB7654;
+      padding: 6% 5%;
+      display: block;
+      font-size: 1.3em;
+    }
+    #right_side a:hover {
+      color: #F9F8F7;
+      background-color: #BB7654;
+    }
+    #footer {
+      width: 100%;
+      height: 40px;
+      background: #222;
+      clear: both;
+    }
+    </style>
+  </head>
+  <body>
+    <!-- navigation start -->
+    <div id="imgcontainer">
+      <div id="header">BREAD</div>
+    </div>
+    <ul id="nav">
+      <li><a href="home.html">Home</a></li>
+      <li><a href="about.html">About</a></li>
+      <li><a href="types.html">Types</a></li>
+      <li><a href="haiku.html">Haiku</a></li>
+    </ul>
+    <!-- navigation end -->
+    <div id="container">
+      <div id="main">
+        <img src="types.jpg" class="pic1">
+        <h2>Bread Types</h2>
+        <p>Bread is the staple food of the Middle East, Central Asia, North Africa, Europe, and in European-derived cultures such as those in the Americas, Australia, and Southern Africa. This is in contrast to parts of South and East Asia, where rice or noodle is the staple. Bread is usually made from a wheat-flour dough that is cultured with yeast, allowed to rise, and finally baked in an oven. The addition of yeast to the bread explains the air pockets commonly found in bread. Owing to its high levels of gluten (which give the dough sponginess and elasticity), common or bread wheat is the most common grain used for the preparation of bread, which makes the largest single contribution to the world's food supply of any food.</p>
+        <p>Bread is also made from the flour of other wheat species (including spelt, emmer, einkorn and kamut). Non-wheat cereals including rye, barley, maize (corn), oats, sorghum, millet and rice have been used to make bread, but, with the exception of rye, usually in combination with wheat flour as they have less gluten.</p>
+      </div>
+      <div id="right_side">
+        <h3>R E C I P E S</h3>
+        <ul>
+          <li><a href="https://www.kingarthurbaking.com/recipes/classic-baguettes-recipe" target="_blank">Baguette</a></li>
+          <li><a href="https://www.handletheheat.com/copycat-olive-garden-breadsticks/" target="_blank">Breadstick</a></li>
+          <li><a href="https://cafedelites.com/cornbread-recipe/" target="_blank">Cornbread</a></li>
+          <li><a href="https://www.gimmesomeoven.com/rosemary-focaccia-bread/" target="_blank">Focaccia</a></li>
+          <li><a href="https://www.seasonsandsuppers.ca/seeded-multigrain-sandwich-bread" target="_blank">Multigrain</a></li>
+          <li><a href="https://www.themediterraneandish.com/homemade-pita-bread-recipe/" target="_blank">Pita</a></li>
+          <li><a href="https://www.simplyrecipes.com/recipes/georges_light_rye_bread/" target="_blank">Rye</a></li>
+          <li><a href="https://www.theclevercarrot.com/2014/01/sourdough-bread-a-beginners-guide/" target="_blank">Sourdough</a></li>
+          <li><a href="https://www.browneyedbaker.com/white-bread-recipe/" target="_blank">White</a></li>
+          <li><a href="https://www.fivehearthome.com/the-very-best-homemade-whole-wheat-bread-plus-free-printable-kitchen-labels/" target="_blank">Whole Wheat</a></li>
+        </ul>
+      </div>
+    </div>
+    <div id="footer"></div>
+    <script>
+    window.onscroll = function() {myFunction()};
+    var header = document.getElementById("nav");
+    var header2 = document.getElementById("imgcontainer");
+    function myFunction() {
+    var sticky = header2.clientHeight;
+      if (window.pageYOffset > sticky) {
+        header.classList.add("sticky");
+      } else {
+        header.classList.remove("sticky");
+      }
+    }
+    </script>
+  </body>
+</html>

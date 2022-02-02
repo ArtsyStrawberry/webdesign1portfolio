@@ -1,0 +1,212 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <link rel="icon" href="breadicon.png">
+    <title>Bread - Home (Evelyn Chen, P. 2)</title>
+    <style type="text/css">
+    body {
+      text-align: center;
+      max-width: 1200px;
+      padding: 0;
+      margin: 0 auto;
+      background: #363636;
+      font-family: serif;
+    }
+    /* navigation start */
+    #header {
+      background-color: white;
+      padding: 10px;
+      width: 50%;
+      position: absolute;
+      top: 50%;
+      left: 50%;
+      transform: translate(-50%, -50%);
+      mix-blend-mode: screen;
+    }
+    @media (min-width: 1201px) {
+      #header {
+        font-size: 7.5em;
+      }
+      #imgcontainer {
+        height: 300px;
+      }
+    }
+    @media (max-width: 1200px) {
+      #header {
+        font-size: 10vw;
+      }
+      #imgcontainer {
+        height: 25vw;
+      }
+    }
+    #imgcontainer {
+      background-image: url("breadbanner.jpg");
+      background-size: cover;
+      position: relative;
+    }
+    #nav {
+      list-style: none;
+      margin: 0;
+      padding: 0;
+      background: #222;
+    }
+    #nav li {
+      display: inline;
+    }
+    #nav a {
+      transition: .2s ease;
+      display: inline-block;
+      color: #E4B374;
+      text-decoration: none;
+      font-weight: bold;
+    }
+    @media (min-width: 616px) {
+      #nav a {
+        font-size: 1.5em;
+        padding: 15px 40px;
+      }
+    }
+    @media (max-width: 615px) {
+      #nav a {
+        font-size: 4vw;
+        padding: 15px 5.9vw;
+      }
+    }
+    #nav a:hover {
+      transition: .2s ease;
+      color: #FFEAE5;
+      background: #865544;
+    }
+    @media (min-width: 1201px) {
+      .sticky {
+        position: fixed;
+        top: 0;
+        width: 1200px;
+      }
+    }
+    @media (max-width: 1200px) {
+      .sticky {
+        position: fixed;
+        top: 0;
+        width: 100%;
+      }
+    }
+    /* navigation end */
+    #container {
+      overflow: hidden;
+      background: white;
+      padding: 50px 50px;
+    }
+    .sticky + #container {
+      padding-top: 109px;
+    }
+    .pic1, .pic3, .pic5 {
+      float: left;
+      padding: 10px 40px 40px 0;
+      width: 100%;
+    }
+    .pic2, .pic4 {
+      float: right;
+      padding: 10px 0 40px 40px;
+      width: 100%;
+    }
+    .pic1 {
+      max-width: 270px;
+    }
+    .pic2 {
+      max-width: 400px;
+    }
+    .pic3 {
+      max-width: 300px;
+    }
+    .pic4 {
+      max-width: 450px;
+    }
+    .pic5 {
+      max-width: 230px;
+    }
+    h2 {
+      margin: 0;
+      font-size: 2em;
+      color: #BB7654;
+    }
+    p {
+      font-size: 1.2em;
+      line-height: 1.25em;
+      text-align: justify;
+      color: #3D2923;
+    }
+    p:first-letter {
+      font-size: 2.5em;
+      line-height: 1em;
+      float: left;
+      margin: 0 0.1em 0 0;
+    }
+    hr {
+      margin: 40px;
+      border: 0;
+      background: white;
+      height: 1px;
+    }
+    #footer {
+      width: 100%;
+      height: 40px;
+      background: #222;
+      clear: both;
+    }
+    </style>
+  </head>
+  <body>
+    <!-- navigation start -->
+    <div id="imgcontainer">
+      <div id="header">BREAD</div>
+    </div>
+    <ul id="nav">
+      <li><a href="home.html">Home</a></li>
+      <li><a href="about.html">About</a></li>
+      <li><a href="types.html">Types</a></li>
+      <li><a href="haiku.html">Haiku</a></li>
+    </ul>
+    <!-- navigation end -->
+    <div id="container">
+      <img src="about5.jpg" class="pic1">
+      <h2>Etymology</h2>
+      <p>The Old English word for bread was hlaf, which appears to be the oldest Teutonic name. Old High German hleib and modern German Laib derive from this Proto-Germanic word, which was borrowed into Slavic (Polish chleb, Russian khleb) and Finnic (Finnish leipä, Estonian leib) languages as well. The Middle and Modern English word bread appears in Germanic languages, such as West Frisian brea, Dutch brood, German Brot, Swedish bröd, and Norwegian and Danish brød; a word that originally meant "broken piece" or "morsel".</p>
+      <p>Some say that "bread" itself comes from an older root having to do with brewing, in reference to the rising action of the yeast, but it's more likely to have come from a root having to do with breaking things into little pieces.</p>
+      <hr>
+      <img src="about1.jpg" class="pic2">
+      <h2>History</h2>
+      <p>Bread is one of the oldest prepared foods. Evidence from 30,000 years ago in Europe and Australia revealed starch residue on rocks used for pounding plants. It is possible that during this time, starch extract from the roots of plants, such as cattails and ferns, was spread on a flat rock, placed over a fire and cooked into a primitive form of flatbread. The world's oldest evidence of bread-making has been found in a 14,500-year-old Natufian site in Jordan's northeastern desert. Around 10,000 BC, with the dawn of the Neolithic age and the spread of agriculture, grains became the mainstay of making bread. Yeast spores are ubiquitous, including on the surface of cereal grains, so any dough left to rest leavens naturally.</p>
+      <p>There were multiple sources of leavening available for early bread. Airborne yeasts could be harnessed by leaving uncooked dough exposed to air for some time before cooking. Pliny the Elder reported that the Gauls and Iberians used the foam skimmed from beer called barm to produce "a lighter kind of bread than other peoples" such as barm cake. Parts of the ancient world that drank wine instead of beer used a paste composed of grape juice and flour that was allowed to begin fermenting, or wheat bran steeped in wine, as a source for yeast. The most common source of leavening was to retain a piece of dough from the previous day to use as a form of sourdough starter, as Pliny also reported.</p>
+      <hr>
+      <img src="about2.jpg" class="pic3">
+      <h2>Culinary Uses</h2>
+      <p>Bread can be served at many temperatures; once baked, it can subsequently be toasted. It is most commonly eaten with the hands, either by itself or as a carrier for other foods. Bread can be spread with butter, dipped into liquids such as gravy, olive oil, or soup; it can be topped with various sweet and savory spreads, or used to make sandwiches containing meats, cheeses, vegetables, and condiments.</p>
+      <p>Bread is used as an ingredient in other culinary preparations, such as the use of breadcrumbs to provide crunchy crusts or thicken sauces; toasted cubes of bread, called croutons, are used as a salad topping; seasoned bread is used as stuffing inside roasted turkey; sweet or savoury bread puddings are made with bread and various liquids; egg and milk-soaked bread is fried as French toast; and bread is used as a binding agent in sausages, meatballs and other ground meat products.</p>
+      <hr>
+      <img src="about3.jpg" class="pic4">
+      <h2>Preparation</h2>
+      <p>Doughs are usually baked, but in some cuisines breads are steamed (e.g., mantou), fried (e.g., puri), or baked on an unoiled frying pan (e.g., tortillas). It may be leavened or unleavened (e.g. matzo). Salt, fat and leavening agents such as yeast and baking soda are common ingredients, though bread may contain other ingredients, such as milk, egg, sugar, spice, fruit (such as raisins), vegetables (such as onion), nuts (such as walnut) or seeds (such as poppy).</p>
+      <p>Methods of processing dough into bread include the straight dough process, the sourdough process, the Chorleywood bread process and the sponge and dough process.</p>
+      <hr>
+      <img src="about4.jpg" class="pic5">
+      <h2>Cultural Significance</h2>
+      <p>Bread has a significance beyond mere nutrition in many cultures because of its history and contemporary importance. Bread is also significant in Christianity as one of the elements (alongside wine) of the Eucharist, and in other religions including Paganism.</p>
+      <p>In many cultures, bread is a metaphor for basic necessities and living conditions in general. For example, a "bread-winner" is a household's main economic contributor and has little to do with actual bread-provision. This is also seen in the phrase "putting bread on the table". The Roman poet Juvenal satirized superficial politicians and the public as caring only for "panem et circenses" (bread and circuses). In Russia in 1917, the Bolsheviks promised "peace, land, and bread." The term "breadbasket" denotes an agriculturally productive region. In Slavic cultures bread and salt is offered as a welcome to guests. In India, life's basic necessities are often referred to as "roti, kapra aur makan" (bread, cloth, and house).</p>
+    </div>
+    <div id="footer"></div>
+    <script>
+    window.onscroll = function() {myFunction()};
+    var header = document.getElementById("nav");
+    var header2 = document.getElementById("imgcontainer");
+    function myFunction() {
+    var sticky = header2.clientHeight;
+      if (window.pageYOffset > sticky) {
+        header.classList.add("sticky");
+      } else {
+        header.classList.remove("sticky");
+      }
+    }
+    </script>
+  </body>
+</html>
